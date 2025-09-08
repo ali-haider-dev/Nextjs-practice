@@ -2,8 +2,10 @@ import { headers, cookies } from "next/headers";
 import { comments } from "./data";
 import { NextRequest } from "next/server";
 export const GET = async (request: NextRequest) => {
-  const headersList = await headers();
-  console.log("headersList", headersList.get("user-agent"));
+  // // const body  = await request.json();---only in POST,PUT,PATCH
+  // console.log("body", body); 
+  // const headersList = await headers();
+  // console.log("headersList", headersList.get("user-agent"));
   const token = request.cookies.get("token")?.value;
   const name = request.cookies.get("name")?.value;
   console.log("token", token);
