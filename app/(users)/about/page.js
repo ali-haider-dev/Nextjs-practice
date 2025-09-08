@@ -31,7 +31,7 @@ export default function About() {
           <h2 className="text-2xl font-semibold mb-4">Our Story</h2>
           <p className="text-gray-600 mb-4">
             Welcome to our company! We are passionate about creating innovative
-            solutions that make a difference in people's lives. Since our
+            solutions that make a difference in people lives. Since our
             founding, we have been committed to excellence and continuous
             improvement.
           </p>
@@ -61,7 +61,7 @@ export default function About() {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
           <p className="text-gray-600">
-            Have questions? Feel free to reach out to us at{" "}
+            Have questions? Feel free to reach out to us at
             <a
               href="mailto:contact@example.com"
               className="text-blue-600 hover:text-blue-800"

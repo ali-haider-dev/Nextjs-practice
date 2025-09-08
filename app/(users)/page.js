@@ -84,7 +84,7 @@ export default async function Home() {
             Oops! Something went wrong
           </h1>
           <p className="font-poppins text-gray-600 mb-8">
-            We couldn't load the posts. Please try again later.
+            We could not load the posts. Please try again later.
           </p>
           <button 
             onClick={() => window.location.reload()} 
