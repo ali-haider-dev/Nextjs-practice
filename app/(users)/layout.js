@@ -1,6 +1,6 @@
 import { Arvo, Poppins } from "next/font/google";
 import "../globals.css";
-import Navigation from "@/app/components/Navigation";
+import Navigation from "../components/Navigation";
 
 export const metadata = {
   title: "Practice App",
